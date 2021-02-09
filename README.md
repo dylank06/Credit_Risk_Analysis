@@ -27,7 +27,7 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
   - The Balanced Random Forest Classifier had an accuracy score of about 79%. The presision of of the classification on the data set was 99% with a recal at 87%.
 
 - Easy Ensemble AdaBoost Classifier Model
-  - 
+  - pic
   - The Easy Ensemble AdaBoost Classifier had an accuracy score of about 93%. The presision of of the classification on the data set was 99% with a recal at 94%.
 
 
