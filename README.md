@@ -1,7 +1,7 @@
 # Credit_Risk_Analysis
 
 ## Overview of the analysis 
-- The purpose of the Credit Risk Analysis is to use skills in data preparartion, statistical reasoning, and machine learning to predict credit risk. SInce credit risk is an inherently unbalanced classification problem. Therefore, I employed different techniquies to train and evaluate models with unbalanced classes. Using Pythons imbalanced-learn and scikit-learn libraries to build and evaluate models using resampling. 
+- The purpose of the Credit Risk Analysis is to use skills in data preparartion, statistical reasoning, and machine learning to predict credit risk. Since credit risk is an inherently unbalanced classification problem. I employed different techniquies to train and evaluate models with unbalanced classes. Using Pythons imbalanced-learn and scikit-learn libraries to build and evaluate models using resampling. 
 
 ## Results
 
