@@ -1,7 +1,22 @@
 # Credit_Risk_Analysis
 
-## Overview of the analysis 
+## Summary
 - The aim of Credit Risk Analysis is to use expertise in data processing, mathematical reasoning, and machine learning to classify credit risk into low or high risk. Since credit risk is an inherently unbalanced issue for classification. To train and test models of unbalanced groups, I employed various techniques. Using Pythons imbalanced-learn and scikit-learn libraries to build and evaluate models using resampling. 
+
+## Overview
+
+## Used Resampling Models to Preditct Credit Risk 
+
+Used knowledge of the imbalanced-learn and scikit-learn libraries, evaluated three machine learning models by using resampling to determine which is better at predicting credit risk. First, used the oversampling RandomOverSampler and SMOTE algorithms, and then used the undersampling ClusterCentroids algorithm. Using these algorithms, resampled the dataset, viewed the count of the target classes, trained a logistic regression classifier, calculated the balanced accuracy scores, generated a confusion matrix, and generated a classification report.
+
+## Use the SMOTEENN Algorithm to Predict Credit Risk
+
+Used a combinatorial approach of over- and undersampling with the SMOTEENN algorithm to determine if the results from the combinatorial approach are better at predicting credit risk than the resampling algorithms from resampling models. Using the SMOTEENN algorithm, resampled the dataset, viewed the count of the target classes, trained a logistic regression classifier, calculated the balanced accuracy scores, generated a confusion matrix, and generated a classification report.
+
+## Use Ensemble Classifiers to Predict Credit Risk
+
+Used BalancedRandomForestClassifier and EasyEnsembleClassifier, to predict credit risk and evaluate each model. Using both algorithms, resampled the dataset, viewed the count of the target classes, trained a logistic regression classifier, calculated the balanced accuracy scores, generated a confusion matrix, and generated a classification report.
+
 
 ## Results
 
@@ -35,5 +50,5 @@
   
   - The Easy Ensemble AdaBoost Classifier had an accuracy score of about 93%. The precision of of the classification on the data set was 99% with a recall at 94%.
 
-## Summary 
+## Conclusion 
 After testing the six different machine learning models I would recomend using the Easy Ensemble AdaBoost Classifier model. The model had the highests accuacy for credit risk classification problem. Accuracy is the proportion of correct classificaions. Meaning the true positives and negatives from the overall number of cases. The models accuarcy score was aboout 93 percent which was by far the highest of the tested models. The precisision of the model was also the highest of the models that were tested. Precision is the proportion of correct postive classifications from cases that are predicted as positive. The models precision score was about 94 percent. Lastly, the recall score was 99 percent. Which means 99 percent of the proportion of correct positive classifications are from cases that are actually positive.
