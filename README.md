@@ -48,7 +48,7 @@ Used BalancedRandomForestClassifier and EasyEnsembleClassifier, to predict credi
 - Easy Ensemble AdaBoost Classifier Model
   - ![Easy Ensemble AdaBoost Classifier](https://user-images.githubusercontent.com/16258584/107434365-54a92a80-6af0-11eb-8e92-50ebefc14aaf.png)
   
-  - The Easy Ensemble AdaBoost Classifier had an accuracy score of about 93%. The precision of of the classification on the data set was 99% with a recall at 94%.
+  - The Easy Ensemble AdaBoost Classifier had an accuracy score of about 93%. The precision of the classification on the data set was 99% with a recall at 94%.
 
 ## Conclusion 
 After testing the six different machine learning models I would recomend using the Easy Ensemble AdaBoost Classifier model. The model had the highests accuacy for credit risk classification problem. Accuracy is the proportion of correct classificaions. Meaning the true positives and negatives from the overall number of cases. The models accuarcy score was aboout 93 percent which was by far the highest of the tested models. The precisision of the model was also the highest of the models that were tested. Precision is the proportion of correct postive classifications from cases that are predicted as positive. The models precision score was about 94 percent. Lastly, the recall score was 99 percent. Which means 99 percent of the proportion of correct positive classifications are from cases that are actually positive. While EasyEnsemble was the best model, a draw back of the model is that the low precision and f1 score for the high risk loans make even that model not useful except as maybe a base for further analysis.
